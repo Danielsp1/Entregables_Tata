@@ -1,0 +1,221 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="647.2,2212.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="512,2148" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Cedulas" />
+      <Variable x:TypeArguments="x:String" Name="Puntos" />
+      <Variable x:TypeArguments="x:String" Name="LICENCIA" />
+      <Variable x:TypeArguments="x:String" Name="FECHA" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Cuadro de diálogo de entrada" sap:VirtualizedContainerService.HintSize="449.6,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Coloque su cedula" Title="Robot licencia">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[Cedulas]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Utilizar Navegador Chrome: Nueva pestaña" sap:VirtualizedContainerService.HintSize="449.6,1785.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="96cb338d-9b5a-48a3-8342-f41b455e1c98" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="416,1505.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'INPUT ps_identificacion'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="96cb338d-9b5a-48a3-8342-f41b455e1c98" Text="[Cedulas]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://consultaweb.ant.gob.ec/PortalWEB/paginas/clientes/clp_criterio_consulta.jsp" CVScreenId="9c348de2-feb8-45e8-9895-6aeb79de1f03" CvElementArea="772, 376, 393, 50" CvType="InputBox" DesignTimeRectangle="774, 378, 389, 44" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='ps_identificacion' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ps_identificacion' tag='INPUT' type='text' class='' placeholder='valor' aaname='IDENTIFICACIÓN' /&gt;" Guid="3e1b0866-5522-44f9-8465-3a81bb90dbc1" InformativeScreenshot="f9e93927fa156c90599b528bc1434395.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Consulta de Citaciones' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'IMG'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="96cb338d-9b5a-48a3-8342-f41b455e1c98" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://consultaweb.ant.gob.ec/PortalWEB/paginas/clientes/clp_criterio_consulta.jsp" CVScreenId="d8618cbb-1d84-4990-a726-990cbcb4a464" CvElementArea="939, 447, 57, 63" CvType="Icon" DesignTimeRectangle="943, 449, 51, 78" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='frm_consulta' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='frm_consulta' tag='IMG' type='' class='' aaname='Salir' /&gt;" Guid="66a2fac7-662b-49dc-8c8a-d4d5a22fb87c" ImageBase64="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" InformativeScreenshot="8ecdb0db8e90cce770b9ce95c58930b7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Consulta de Citaciones' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Obtener texto 'Puntos'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="96cb338d-9b5a-48a3-8342-f41b455e1c98" TextString="[Puntos]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://consultaweb.ant.gob.ec/PortalWEB/paginas/clientes/clp_grid_citaciones.jsp?ps_tipo_identificacion=CED&amp;ps_identificacion=1724834823&amp;ps_placa=" CVScreenId="917491c6-706e-46dd-b509-e4ca8ec74973" CvTextArea="1186, 196, 30, 20" CvType="AnyWordGroup" DesignTimeRectangle="1184, 182, 45, 47" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl class='MarcoTitulo' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableCol='3' tableRow='1' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl class='MarcoTitulo' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' class='titulo1' tag='TD' /&gt;" Guid="6f7de3a1-2e90-4ebb-bbfc-4b05ad3d2236" InformativeScreenshot="20101988eca035ceebe4982615ecdeb8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Citaciones' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="917491c6-706e-46dd-b509-e4ca8ec74973" CvTextArea="1054, 197, 87, 18" CvTextArgument="Puntos:" CvType="Text" DesignTimeRectangle="1056, 196, 125, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl class='MarcoTitulo' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='MarcoTitulo' tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='' aaname='Puntos:' check:innerText='Puntos:' /&gt;" Guid="0b77f066-ab57-4640-9ee6-4cc247b35cc5" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Obtener texto 'B / VALIDEZ'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="96cb338d-9b5a-48a3-8342-f41b455e1c98" TextString="[LICENCIA]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://consultaweb.ant.gob.ec/PortalWEB/paginas/clientes/clp_grid_citaciones.jsp?ps_tipo_identificacion=CED&amp;ps_identificacion=1724834823&amp;ps_placa=" CVScreenId="04c10349-2b4f-430e-aab8-2e44d19f0356" CvTextArea="11, 255, 432, 12" CvType="AnyWordGroup" DesignTimeRectangle="9, 252, 1375, 20" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl class='MarcoTitulo' tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl class='MarcoTitulo' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='detalle_formulario' /&gt;" Guid="2b9d41de-91cf-4cdd-a68d-08ab76c898f5" InformativeScreenshot="577bb2774af892120d4cc6b61de5e2c9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Citaciones' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="04c10349-2b4f-430e-aab8-2e44d19f0356" CvTextArea="136, 254, 110, 15" CvTextArgument="B / VALIDEZ:" CvType="Text" DesignTimeRectangle="136, 254, 110, 15" ElementType="Text" Guid="0240a1c7-9af0-4bab-b93d-878b6d3f0b6c" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Obtener texto '07-02-2020 - 05-02-2025'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="96cb338d-9b5a-48a3-8342-f41b455e1c98" TextString="[FECHA]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://consultaweb.ant.gob.ec/PortalWEB/paginas/clientes/clp_grid_citaciones.jsp?ps_tipo_identificacion=CED&amp;ps_identificacion=1724834823&amp;ps_placa=" CVScreenId="fbff688a-2957-4788-aed0-ff940b0cb049" CvTextArea="11, 255, 432, 12" CvType="AnyWordGroup" DesignTimeRectangle="9, 252, 1375, 20" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl class='MarcoTitulo' tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl class='MarcoTitulo' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='detalle_formulario' /&gt;" Guid="8bc91469-3c4a-4577-a024-290cd2ab4885" InformativeScreenshot="181337819ccb0ea9536b4f8187ef9517.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Citaciones' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="fbff688a-2957-4788-aed0-ff940b0cb049" CvTextArea="249, 255, 194, 12" CvTextArgument="07-02-2020 - 05-02-2025" CvType="Text" DesignTimeRectangle="249, 254, 194, 13" ElementType="Text" Guid="45cc8e99-7b28-4f86-a6b0-fb1de6fb3408" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Cerrar'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="96cb338d-9b5a-48a3-8342-f41b455e1c98" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://consultaweb.ant.gob.ec/PortalWEB/paginas/clientes/clp_grid_citaciones.jsp?ps_tipo_identificacion=CED&amp;ps_identificacion=1724834823&amp;ps_placa=" CVScreenId="9f22fd64-177b-41da-a474-911b8d2a2ade" CvElementArea="1384, 13, 268, 47" CvType="Button" DesignTimeRectangle="1610, 16, 36, 36" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Citaciones - Google Chrome - Daniel' role='pane' /&gt;&lt;ctrl name='Uso de memoria de Citaciones: 51,5 MB' role='page tab' /&gt;&lt;ctrl name='Cerrar' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Citaciones - Google Chrome - Daniel' role='pane' /&gt;&lt;ctrl name='Uso de memoria de Citaciones: 51,5 MB' role='page tab' /&gt;&lt;ctrl name='Cerrar' role='push button' automationid='' check:text='Cerrar' /&gt;" Guid="b673fb23-ecfb-4a28-8a51-c3f83d328cf2" InformativeScreenshot="58f5d820c7e894d468b702a88bab046a.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Citaciones - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Bandeja de mensajes" sap:VirtualizedContainerService.HintSize="353.6,110.4" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;PUNTOS &quot; + Puntos+&quot; / &quot;+LICENCIA]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="e9df32babf142d5613f52c700f410aea.png" Selector="&lt;html app='chrome.exe' url='https://consultaweb.ant.gob.ec/PortalWEB/paginas/clientes/clp_criterio_consulta.jsp' /&gt;" Title="Nueva pestaña" Url="https://consultaweb.ant.gob.ec/PortalWEB/paginas/clientes/clp_criterio_consulta.jsp" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
